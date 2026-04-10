@@ -2,13 +2,18 @@
 
 This repository contains the Homebrew tap for installing Daxtack tools.
 
-## Daxtack Agent
+## Daxtack
 
-The Daxtack Enterprise Agent.
+The Daxtack CI/CD agent CLI.
 
 ### Installation
 
 ```bash
-brew tap daxtack/tap
-brew install daxtack-agent
+brew install Ankit-py/tap/daxtack
+```
+
+After install:
+
+```bash
+daxtack init
 ```
